@@ -1,12 +1,28 @@
+@font-face {
+    font-family: "Taviraj-Regular";
+    src: url('../assets/fonts/Taviraj-Regular.ttf');
+}
+
+@font-face {
+    font-family: "Taviraj-ExtraBold";
+    src: url("../assets/fonts/Taviraj-ExtraBold.ttf");
+}
+
+
 *{
     
-   
+   font-family: "Taviraj-Regular";
+   line-height: 1.2em;
     box-sizing: border-box;
 }
 
 body{
     margin:0px;
     padding:0px;
+}
+
+h1{
+    font-family: "Taviraj-ExtraBold", serif;
 }
 
 .header, .hero, .infoContainer, .quote, .callToAction{
@@ -29,6 +45,10 @@ body{
     margin-bottom: 64px;
 }
 
+.logo{
+    font-family: "Taviraj-ExtraBold", serif;
+}
+
 .hero{
     display:flex;
     flex-wrap: wrap;
@@ -45,8 +65,8 @@ body{
     
 }
 .h1Hero{
+    
     font-size:48px;
-    font-weight: bold;
     color: #F9FaF8;
     margin:5px;
 }
@@ -77,5 +97,34 @@ ul{
 a{
     text-decoration: none;
     color:white;
+}
+
+.infoContainer{
+    text-align:center;
+    margin: 64px auto;
+}
+
+.infoH1{
+    padding:16px;
+}
+
+.infoContent{
+    display:flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.info{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    width:200px;
+}
+
+.infoPic{
+    width: 200px;
+    height: 200px;
+    border: 2px solid #0a6ffc;
+    border-radius: 25px;
 }
 
