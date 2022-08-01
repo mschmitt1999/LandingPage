@@ -8,6 +8,11 @@
     src: url("../assets/fonts/Taviraj-ExtraBold.ttf");
 }
 
+@font-face {
+    font-family: "Taviraj-Italic";
+    src: url("../assets/fonts/Taviraj-Italic.ttf");
+}
+
 
 *{
     
@@ -23,6 +28,7 @@ body{
 
 h1{
     font-family: "Taviraj-ExtraBold", serif;
+    font-size:32px;
 }
 
 .header, .hero, .infoContainer, .quote, .callToAction{
@@ -110,7 +116,7 @@ a{
 
 .infoContent{
     display:flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     flex-wrap: wrap;
 }
 
@@ -128,3 +134,17 @@ a{
     border-radius: 25px;
 }
 
+.quoteSection{
+    background-color: #E5E7EB;
+    padding:128px;
+    font-size:32px;
+}
+
+.quote{
+    font-family: "Taviraj-Italic", italic; 
+}
+
+.quoteAuthor{
+    text-align: right;
+    font-family:"Taviraj-ExtraBold"
+}
