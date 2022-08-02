@@ -31,7 +31,7 @@ h1{
     font-size:32px;
 }
 
-.header, .hero, .infoContainer, .quote, .callToAction{
+.header, .hero, .infoContainer, .quote, .callToSection{
     max-width:1200px;
     /*border:2px solid white;*/
     margin: 0 auto;
@@ -82,9 +82,11 @@ h1{
     color:#F9FAF8;
 
 }
-#signUp{
-    width:60px;
-  
+.signUp{
+    width:fit-content;
+    height:fit-content;
+    padding:8px;
+    
 }
 
 .imgPlaceholder{
@@ -147,4 +149,26 @@ a{
 .quoteAuthor{
     text-align: right;
     font-family:"Taviraj-ExtraBold"
+}
+
+
+
+.callToAction{
+    background-color: #3882f6;
+    border:2px #3882f6 solid;
+    border-radius:25px;
+    margin: 32px;
+    padding: 64px;
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+    color:#F9FAF8;
+
+}
+
+.footer{
+    text-align: center;
+    padding:32px;
+    background-color: #1F2937;
+    color:#F9FAF8;
 }
